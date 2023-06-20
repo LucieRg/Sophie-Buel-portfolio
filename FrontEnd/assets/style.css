@@ -220,7 +220,8 @@ i > span {
 }
  .filter-button {
 	
-	background-color: white;
+	background-color:#FFFEF8;
+	font-family: 'Syne';
 	color: #1D6154;
 	padding: 8px 16px;
 	margin-right: 8px;

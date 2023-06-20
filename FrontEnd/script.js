@@ -241,7 +241,12 @@ if (userToken) {
     });
     if (response.ok) {
       worksElements.remove();
-      document.querySelector(`figure[data-id="${workId}"]`).remove();
+      const modalWorkElement = document.querySelector(
+        `figure[data-id="${workId}"]`
+      );
+      if (modalWorkElement) {
+        modalWorkElement.remove();
+      }
     }
   }
 
